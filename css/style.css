@@ -1,0 +1,33 @@
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.login_form{
+    /* border: black solid 1px; */
+    padding: 15px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.Completed_box{
+    display: flex;
+    flex-direction: column;
+}
+.search{
+    display: flex;
+}
+.search div{
+    padding: 7px;
+}
+.search_container {
+    border: 1px solid #000;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.table{
+    margin-top: 10px;
+}
